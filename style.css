@@ -12,7 +12,7 @@
 }
 
 body{
-    background-image: linear-gradient(to right, rgb(30, 30, 30), rgb(50, 50, 50));
+    background-image: linear-gradient(to right, #363638, #767779);
     text-align:center ;
     font-family: 'Times New Roman', Times, serif;
     font-size: 140%;
