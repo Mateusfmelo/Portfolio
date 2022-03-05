@@ -3,42 +3,39 @@
     margin: 0;
 }
 
-#imagem{
-    background-color: rgb(25, 25, 25);
-    border-radius: 50%;
-    width: 250px;
+body {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cabecalho {
+    margin: auto;
+    background: #1e111d;
+}
+
+.options {
+    padding: 15px;
+    margin: auto;
+}
+
+#content {
+    border: 1px solid red;
+    background: #1e111d;
     height: 250px;
-    border: 3px solid black;
 }
 
-body{
-    background-image: linear-gradient(to right, #363638, #767779);
-    text-align:center ;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 140%;
-    color: white;
-    padding: 5%;
+
+img {
+    margin-top: 1.5em;
+    margin-left: 2em;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
-.redes{
-    padding: 20px;
-}
-
-h1, h2, h3{
-    padding: 5px;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-button {
-    font-size: 80%;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: 	#282828  ; 
-    border-radius: 50px;
-    color: white;
-    padding: 8px;
-    display: inline-block;
+.sobre {
+    padding: 3em;
+    font-size: 20px;
+    margin-left: 15em;
+    text-align: justify;
 }
