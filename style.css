@@ -3,14 +3,27 @@
     margin: 0;
 }
 
-body {
+a{
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 19px 15px;
+}
+
+a:active, a:hover {
     color: red;
+}
+
+
+body {
+    color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #cabecalho {
     margin: auto;
     background: #1e111d;
+    border: 3px solid #000000;
 }
 
 .options {
@@ -19,23 +32,29 @@ body {
 }
 
 #content {
-    border: 1px solid red;
     background: #1e111d;
     height: 250px;
 }
 
 .foto-sobre {
-    margin-top: 1.5em;
-    margin-left: 3em;
+    margin-top: 1em;
+    margin-left: 1.5em;
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 
-.sobre {    
+.sobre {
+    max-width: 80%;
     text-align: justify;
-    padding: 3em;
-    font-size: 20px;
-    margin-top: 0;
-    margin-left: 15em;
+    font-size: 19px;
+    margin-left: 6em;
+    margin-top: 4em;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
 }
