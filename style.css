@@ -6,11 +6,10 @@
 a{
     text-decoration: none;
     color: white;
-    background: black;
     padding: 19px 15px;
 }
 
-a:active, a:hover {
+a:hover {
     color: red;
 }
 
@@ -58,3 +57,20 @@ body {
     grid-template-columns: auto auto auto;
     padding: 10px;
 }
+
+#rodape {
+    border: 3px solid #000000;
+    background: #1e111d;
+    height: 150px;
+    margin: auto;
+}
+
+.contato {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    background-color: none;
+}
+
