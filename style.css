@@ -17,12 +17,12 @@ a:hover {
 body {
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, #1f1f1f, #373737);
 }
 
 #cabecalho {
     margin: auto;
-    background: #1e111d;
-    border: 3px solid #000000;
+    border: 5px solid #000000;
 }
 
 .options {
@@ -31,7 +31,6 @@ body {
 }
 
 #content {
-    background: #1e111d;
     height: 250px;
 }
 
@@ -59,18 +58,13 @@ body {
 }
 
 #rodape {
-    border: 3px solid #000000;
-    background: #1e111d;
-    height: 150px;
+    border: 5px solid #000000;
+    height: 170px;
     margin: auto;
 }
 
 .contato {
+    margin-top: 1px;
     text-align: center;
-    padding: 20px;
+    padding: 10px 10px;
 }
-
-a {
-    background-color: none;
-}
-
